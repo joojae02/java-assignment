@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class test1 {
+public class p110_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("정수 3개 입력 >>");
