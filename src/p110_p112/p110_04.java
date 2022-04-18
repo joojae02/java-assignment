@@ -1,3 +1,5 @@
+package p110_p112;
+
 import java.util.Scanner;
 
 public class p110_04 {
