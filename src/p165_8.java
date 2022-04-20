@@ -12,24 +12,23 @@ public class p165_8 {
             int tmp = (int)(Math.random() * 100) + 1;
             for(int k = 0; k < i ; k ++)
             {
-                if(tmp == num[k])
+                if (tmp == num[k])
+                {
                     check = 1;
+                    break;
+                }
             }
             if(check == 1)
-            {
                 i--;
-                continue;
-            }
             else
-            {
                 num[i] = tmp;
-            }
+
         }
         for(int i = 0; i< n; i++)
         {
-            System.out.print(num[i]);
-            if(i / 5 == 0)
+            if(i % 5 == 0)
                 System.out.println();
+            System.out.print(num[i] + " ");
         }
     }
 }
