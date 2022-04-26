@@ -13,7 +13,7 @@ public class p169_16 {
                 break;
             }
             int n = (int)(Math.random()*3);
-            if(s.equals())
+
         }
     }
 }
