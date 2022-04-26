@@ -1,3 +1,5 @@
+package p164_p169;
+
 import java.util.Scanner;
 
 public class p168_14 {

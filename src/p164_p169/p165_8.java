@@ -1,3 +1,5 @@
+package p164_p169;
+
 import java.util.Scanner;
 
 public class p165_8 {
@@ -26,7 +28,7 @@ public class p165_8 {
         }
         for(int i = 0; i< n; i++)
         {
-            if(i % 5 == 0)
+            if(i % 10 == 0)
                 System.out.println();
             System.out.print(num[i] + " ");
         }

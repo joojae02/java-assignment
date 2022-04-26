@@ -1,3 +1,5 @@
+package p164_p169;
+
 public class p164_2 {
     public static void main(String[] args) {
         int n[][] = {{1}, {1,2,3}, {1}, {1,2,3,4}, {1,2}};

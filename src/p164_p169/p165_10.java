@@ -1,3 +1,5 @@
+package p164_p169;
+
 public class p165_10 {
     public static void main(String[] args) {
         int [][] num = new int[4][4];
@@ -5,7 +7,7 @@ public class p165_10 {
         for(int i = 0; i< 10; i++)
         {
             int check = 0;
-            int tmp = (int)(Math.random() * 10) + 1;
+            int tmp = (int)(Math.random() * 16);
             for(int k = 0; k < i ; k ++)
             {
                 if (tmp == n[k])
@@ -28,8 +30,4 @@ public class p165_10 {
             System.out.println();
         }
     }
-
-
-
-
 }
