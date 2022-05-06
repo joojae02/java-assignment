@@ -4,6 +4,10 @@ public class p242_4 {
         Rectangle s = new Rectangle(5,5,6,6);
         Rectangle t = new Rectangle(1,1, 10,10);
         r.show();
+        System.out.println("s의 면적은 " + s.square());
+        if(t.contains(r)) System.out.println("t는 r을 포함합니다.");
+        if(t.contains(s)) System.out.println("t는 s을 포함합니다.");
+
     }
 }
 class Rectangle {
@@ -24,8 +28,9 @@ class Rectangle {
         System.out.println("("+x + "," + y+")에서 크기가 "+width+"x" +height+"인 사각형");
     }
     public boolean contains(Rectangle r){
-
+        if(r.x > x && r.y > y && (r.x+ r.width) < x+width && (r.y+ r.height) < y+height)
+            return true;
+        else
+            return false;
     }
-
-
 }
